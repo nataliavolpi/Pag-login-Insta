@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.img-cel {
+    width: 450px;
+}
+.container-imagens {
+    position: relative;
+}
+.imagem-celular {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: opacity 2s ease-in-out;
+}
+
+.logo-insta {
+        margin-bottom: 20px;
+}
+
+.img-ios {
+    width: 150px;
+    margin-left: 30px;
+}
+
+.img-google {
+    width: 150px;
+}
+
+.container-itens {
+        width: 350px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    border: 1px #dbdbdb;
+    background-color: #ffffff;
+    padding: 50px 40px 20px 40px;
+}
+input {
+    height: 36px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+button {
+    background: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+ margin-bottom: 20px;
+ }
+.login-facebook {
+    color: #385183;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.esqueceu-senha {
+color: #385183;
+text-align: center;
+cursor: pointer;
+font-size: 12px;
+}
+.container-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px #dbdbdb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.link-cadastro {
+    color: #0095f6;
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.paragrafo-app {
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: medium;
+}
+.container-app {
+justify-content: center;
+gap: 20px;
+}
